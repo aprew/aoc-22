@@ -52,9 +52,9 @@ public class seven {
             throw new RuntimeException(e);
         }
         GLOBAL_BEST_SIZE = sumAllChildren(root);
+        System.out.println("sum of smaller than 100000: " + GLOBAL_SUM);
         GLOBAL_TARGET = 30000000 - (70000000 - GLOBAL_BEST_SIZE);
         System.out.println("total size: "+sumAllChildren(root));
-        System.out.println("sum of smaller than 100000: " + GLOBAL_SUM);
         System.out.println("smallest that meets target: " + GLOBAL_BEST_SIZE);
     }
 
