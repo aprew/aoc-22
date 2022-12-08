@@ -1,10 +1,10 @@
 import java.io.IOException;
 import java.io.FileReader;
 import java.io.BufferedReader;
-public class three {
+public class D03 {
     public static void main(String[] args) {
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("./three.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("./D03.txt"));
             String line;
             int sum = 0;
             while ((line = bufferedReader.readLine()) != null) {
@@ -16,7 +16,7 @@ public class three {
             }
             System.out.println(sum);
             bufferedReader.close();
-            bufferedReader = new BufferedReader(new FileReader("./three.txt"));
+            bufferedReader = new BufferedReader(new FileReader("./D03.txt"));
             sum = 0;
             while ((line = bufferedReader.readLine()) != null) {
                 String second = bufferedReader.readLine();

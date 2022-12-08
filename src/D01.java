@@ -2,9 +2,9 @@ import java.io.File;
 import java.io.IOException;
 import java.io.FileReader;
 import java.io.BufferedReader;
-public class one {
+public class D01 {
     public static void main(String[] args) {
-        File input = new File("./one.txt");
+        File input = new File("./D01.txt");
         int topOne = 0;
         int topTwo = 0;
         int topThree = 0;

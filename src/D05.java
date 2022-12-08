@@ -4,11 +4,11 @@ import java.io.IOException;
 import java.util.Stack;
 import java.util.Vector;
 
-public class five {
+public class D05 {
     private static final Vector<Stack<Character>> stackVector = new Vector<>();
     public static void main(String[] args) {
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("./five.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("./D05.txt"));
             String line;
             boolean stacksMade = false;
             boolean cratesParsed = false;

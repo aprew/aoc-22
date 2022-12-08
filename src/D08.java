@@ -3,10 +3,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class eight {
+public class D08 {
     public static void main(String[] args) {
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("./eight.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("./D08.txt"));
             String line;
             ArrayList<ArrayList<Integer>> trees = new ArrayList<>();
             ArrayList<ArrayList<Boolean>> treeCounted = new ArrayList<>();

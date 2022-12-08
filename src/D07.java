@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class seven {
+public class D07 {
     private static int GLOBAL_SUM = 0;
     private static int GLOBAL_TARGET = 0;
     private static int GLOBAL_BEST_SIZE = 0;
@@ -13,7 +13,7 @@ public class seven {
         TreeNode<HashMap<String, Integer>> current  = root;
         boolean list = false;
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("./seven.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("./D07.txt"));
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 String[] strings = line.split(" ");

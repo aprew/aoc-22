@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
 
-public class six {
+public class D06 {
     public static void main(String[] args) {
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("./six.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("./D06.txt"));
             String line;
             HashMap<Character, Integer> charCount = new HashMap<>();
             LinkedList<Character> charHistory = new LinkedList<>();

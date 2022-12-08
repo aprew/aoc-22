@@ -2,10 +2,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class four {
+public class D04 {
     public static void main(String[] args) {
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("./four.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("./D04.txt"));
             String line;
             int count = 0;
             while ((line = bufferedReader.readLine()) != null) {
@@ -18,7 +18,7 @@ public class four {
             }
             System.out.println(count);
             bufferedReader.close();
-            bufferedReader = new BufferedReader(new FileReader("./four.txt"));
+            bufferedReader = new BufferedReader(new FileReader("./D04.txt"));
             count = 0;
             while ((line = bufferedReader.readLine()) != null) {
                 String[] strings = line.split(",");

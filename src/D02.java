@@ -2,10 +2,10 @@ import java.io.File;
 import java.io.IOException;
 import java.io.FileReader;
 import java.io.BufferedReader;
-public class two {
+public class D02 {
 
     public static void main(String[] args) {
-        File input = new File("./two.txt");
+        File input = new File("./D02.txt");
         partOne(input);
         partTwo(input);
     }
